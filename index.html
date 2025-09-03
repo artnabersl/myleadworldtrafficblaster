@@ -587,7 +587,7 @@
             
             <!-- Weitere Reviews hier einfügen -->
             
-        </div>
+       </div>
         
         <!-- Final CTA -->
         <div class="subtitle">Limited Time Offer - Get Started Today!</div>
@@ -602,4 +602,20 @@
                 <input type="hidden" name="lllid" value="110385">
                 <input type="hidden" name="lluid" value="sandyarta">
                 <input type="hidden" name="redirect" value="">
-                <input type="
+                <input type="hidden" name="source" value="reviewbuyerleadleap">
+                <button type="submit" class="submit-btn">Get Instant Access Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Form handling to ensure it opens in new tab
+        document.addEventListener('DOMContentLoaded', function() {
+            const forms = document.querySelectorAll('form');
+            forms.forEach(form => {
+                form.setAttribute('target', '_blank');
+            });
+        });
+    </script>
+</body>
+</html>
